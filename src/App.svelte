@@ -24,6 +24,7 @@
 
 <main>
   <form on:submit={SearchGif}>
+    <!-- svelte-ignore a11y-label-has-associated-control -->
     <label>Search GIF</label>
     <input
       type="text"
